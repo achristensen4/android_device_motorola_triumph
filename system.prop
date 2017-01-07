@@ -47,7 +47,7 @@ ro.telephony.gsm.spn.shortname=true
 ro.cdma.home.operator.numeric=310053
 
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=90
+wifi.supplicant_scan_interval=16
 
 service.config.gsensor_cal=1
 libcamera.orientation=0
@@ -55,15 +55,15 @@ libcamera.testmode.colorbar=0
 service.config.wifi=0
 wimax.interface=wm0
 
-lpa.decode=false
+lpa.decode=true
 ro.hdmi.enable=true
 
 ro.use_data_netmgrd=true
 ro.config.ehrpd=true
-keyguard.no_require_sim=true
+keyguard.no_require_sim=false
 
 ro.cdma.voicemail.number=mine
-ro.telephony.call_ring.delay=1000
+ro.telephony.call_ring.delay=3000
 wifi.wapi=0
 
-ro.tethering.kb_disconnect=1
+ro.tethering.kb_disconnect=0
